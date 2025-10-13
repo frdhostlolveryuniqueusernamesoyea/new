@@ -19,3 +19,10 @@ a {
     color: var(--link);
     text-decoration-color: var(--underline);
 }
+
+a:hover {
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    zoom: 1.05;
+    color: var(--underline);
+}
