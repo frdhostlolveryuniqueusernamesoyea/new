@@ -23,7 +23,9 @@ a {
 
 a:hover {
     transition: all 0.3s ease-in-out;
+    display: inline-block;
     text-decoration: none;
-    zoom: 1.25;
+    transform: scale(1.25);
+    transform-origin: center;
     color: var(--underline);
 }
