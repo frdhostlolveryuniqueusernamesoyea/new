@@ -17,6 +17,7 @@ body {
 
 a {
     transition: all 0.3s ease-in-out;
+    display: inline-block;
     color: var(--link);
     text-decoration-color: var(--underline);
 }
