@@ -5,6 +5,7 @@
     --background: #0c0c2b;
     --text: #fff;
     --link: #1e90ff;
+    --underline: #82c0fd;
 }
 
 body {
@@ -16,5 +17,5 @@ body {
 
 a {
     color: var(--link);
-    text-decoration-color: var(--accent);
+    text-decoration-color: var(--underline);
 }
