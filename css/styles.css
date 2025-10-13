@@ -3,9 +3,12 @@
 :root {
     --accent: #11113c;
     --background: #0c0c2b;
+    --text: #fff;
 }
 
 body {
     background: var(--background);
     font-family: 'Oswald', sans-serif;
+    color: var(--text);
+    text-align: center;
 }
