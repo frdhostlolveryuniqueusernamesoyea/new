@@ -4,6 +4,7 @@
     --accent: #11113c;
     --background: #0c0c2b;
     --text: #fff;
+    --link: #1e90ff;
 }
 
 body {
@@ -11,4 +12,9 @@ body {
     font-family: 'Oswald', sans-serif;
     color: var(--text);
     text-align: center;
+}
+
+a {
+    color: var(--link);
+    text-decoration-color: var(--accent);
 }
