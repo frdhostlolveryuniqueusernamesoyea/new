@@ -16,6 +16,7 @@ body {
 }
 
 a {
+    transition: all 0.3s ease-in-out;
     color: var(--link);
     text-decoration-color: var(--underline);
 }
@@ -23,6 +24,6 @@ a {
 a:hover {
     transition: all 0.3s ease-in-out;
     text-decoration: none;
-    zoom: 1.05;
+    zoom: 1.25;
     color: var(--underline);
 }
